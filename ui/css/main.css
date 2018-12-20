@@ -162,9 +162,19 @@ body {
   border: 1px solid var(--color-blue-dark-1)
 }
 
+.form__control {
+  display: flex;
+  flex-direction: row;
+}
+
+.form__control .form__group:not(:last-child) {
+  margin-right: 1rem;
+}
+
 .form__group {
   margin-bottom: 1.5rem;
   width: 100%;
+  flex-grow: 1;
 }
 
 
