@@ -28,6 +28,11 @@
 
 .credential__login {
   width: 35rem;
+  display: none;
+}
+
+.credential__register {
+  width: 60rem;
   /* display: none; */
 }
 
