@@ -28,12 +28,12 @@
 
 .credential__login {
   width: 35rem;
-  display: none;
+  /* display: none; */
 }
 
 .credential__register {
   width: 60rem;
-  /* display: none; */
+  display: none;
 }
 
 .left-sidebar__box-text {
